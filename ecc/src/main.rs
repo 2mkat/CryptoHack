@@ -106,6 +106,9 @@ fn point_additin_ec(p: (i64, i64), q:  (i64, i64)) ->  (i64, i64) {
 }
 
 fn main() {
+
+    //--------------- TASK 1 - Point Addition --------------- //
+
     // println!("{:?}", ex_gcd(35, 3));
     // println!("{:?}", inverse(35, 3));
 
@@ -116,4 +119,13 @@ fn main() {
     // (2130, 2999) P + P
     // (8592, 2572) Q + R
     point_additin_ec((8592, 2572), (2130, 2999));
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn test_ex_gcd() {
+
+    }
 }
