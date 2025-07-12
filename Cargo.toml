@@ -1,4 +1,4 @@
 [workspace]
 members = [
     "ecc"
-]
+, "zkp_challenges"]

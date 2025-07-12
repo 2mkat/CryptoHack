@@ -1,4 +1,3 @@
-
 fn module(prime: i64, x: i64) -> i64 {
     x % prime
 }
@@ -120,6 +119,7 @@ fn main() {
     // (8592, 2572) Q + R
     point_additin_ec((8592, 2572), (2130, 2999));
 }
+
 
 #[cfg(test)]
 mod tests {
